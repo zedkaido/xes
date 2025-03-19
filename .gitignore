@@ -1,0 +1,8 @@
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+*.local
+node_modules
+
+.DS_Store
