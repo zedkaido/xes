@@ -140,6 +140,9 @@ export const bangs = {
   "acronym": { name: "AcronymFinder", url: "http://www.acronymfinder.com/~/search/af.aspx?string=exact&Acronym={{{s}}}" },
   "acronyms": { name: "AcronymFinder", url: "http://www.acronymfinder.com/~/search/af.aspx?string=exact&Acronym={{{s}}}" },
 
+  "ascii": { name: "ASCII Art Generator", url: "https://patorjk.com/software/taag/#p=testall&f=Graffiti&t={{{s}}}" }, 
+  "aart": { name: "ASCII Art Generator", url: "https://patorjk.com/software/taag/#p=testall&f=Graffiti&t={{{s}}}" }, 
+
   "gt": { name: "Google Translate (Auto)", url: "https://translate.google.com/#auto/en/{{{s}}}" },
   "gtranslate": { name: "Google Translate (Auto)", url: "https://translate.google.com/#auto/en/{{{s}}}" },
   "translate": { name: "Google Translate (Auto)", url: "https://translate.google.com/#auto/en/{{{s}}}" },
