@@ -417,6 +417,7 @@ export const bangs = {
 
   "brew": { name: "Homebrew", url: "https://duckduckgo.com/?q={{{s}}}+site%3Aformulae.brew.sh" },
   "brewf": { name: "Homebrew", url: "https://formulae.brew.sh/formula/{{{s}}}" },
+  "ports": { name: "MacPorts", url: "https://www.macports.org/ports.php?by=name&substr={{{s}}}" },
   "macports": { name: "MacPorts", url: "https://www.macports.org/ports.php?by=name&substr={{{s}}}" },
   "fs": { name: "Free Software Directory", url: "http://directory.fsf.org/wiki?title=Special%3ASearch&search={{{s}}}&fulltext=Search" },
   "repology": { name: "Repology (The Packing Hub)", url: "https://repology.org/metapackages/?search={{{s}}}" },
