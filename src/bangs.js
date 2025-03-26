@@ -131,6 +131,11 @@ export const bangs = {
   "mobythes": { name: "Moby Thesaurus", url: "http://www.moby-thesaurus.org/search?q={{{s}}}" },
 
   "synonym": { name: "Thesaurus.com", url: "http://www.thesaurus.com/browse/{{{s}}}" },
+  "synonyms": { name: "Thesaurus.com", url: "http://www.thesaurus.com/browse/{{{s}}}" },
+  "syn": { name: "Thesaurus.com", url: "http://www.thesaurus.com/browse/{{{s}}}" },
+  "antonym": { name: "Thesaurus.com", url: "http://www.thesaurus.com/browse/{{{s}}}" },
+  "antonyms": { name: "Thesaurus.com", url: "http://www.thesaurus.com/browse/{{{s}}}" },
+  "ant": { name: "Thesaurus.com", url: "http://www.thesaurus.com/browse/{{{s}}}" },
 
   "acronym": { name: "AcronymFinder", url: "http://www.acronymfinder.com/~/search/af.aspx?string=exact&Acronym={{{s}}}" },
   "acronyms": { name: "AcronymFinder", url: "http://www.acronymfinder.com/~/search/af.aspx?string=exact&Acronym={{{s}}}" },
