@@ -232,12 +232,21 @@ export const bangs = {
   "ddm": { name: "DuckDuckGo Maps", url: "https://duckduckgo.com/?q={{{s}}}&iaxm=maps" },
   "ddn": { name: "DuckDuckGo News", url: "https://duckduckgo.com/?q={{{s}}}&iar=news&ia=news" },
 
-  "ai": { name: "Gemini AI (in chrome use @gemini)", url: "https://gemini.google.com" }, // in chrome @gemini ...
-  "gemini": { name: "Gemini AI (promptless)", url: "https://gemini.google.com" },
+  "dai": { name: "DuckDuckGo AI", url: "https://duckduckgo.com/?q={{{s}}}&ia=chat&bang=true" },
+  "ddgai": { name: "DuckDuckGo AI", url: "https://duckduckgo.com/?q={{{s}}}&ia=chat&bang=true" },
+  "duckai": { name: "DuckDuckGo AI", url: "https://duckduckgo.com/?q={{{s}}}&ia=chat&bang=true" },
+
+  "ai": { name: "Gemini AI (for queries, in chrome use @gemini)", url: "https://gemini.google.com" }, // in chrome @gemini ...
+  "gemini": { name: "Gemini AI (queryless)", url: "https://gemini.google.com" },
+
+  "ais": { name: "Google AI Studio (queryless)", url: "https://aistudio.google.com/prompts/new_chat" },
+  "studio": { name: "Google AI Studio (queryless)", url: "https://aistudio.google.com/prompts/new_chat" },
+  "notebook": { name: "NotebookLM AI by Google (queryless)", url: "https://notebooklm.google.com/" },
+  "research": { name: "NotebookLM AI by Google (queryless)", url: "https://notebooklm.google.com/" },
+  "study": { name: "NotebookLM AI by Google (queryless)", url: "https://notebooklm.google.com/" },
+  "musicfx": { name: "MusicFX by Google Labs (queryless)", url: "https://labs.google/fx/tools/music-fx" },
 
   "claude": { name: "Claude AI", url: "https://claude.ai/new?q={{{s}}}" },
-
-  "ddai": { name: "DuckDuckGo AI", url: "https://duckduckgo.com/?q={{{s}}}&ia=chat&bang=true" },
 
   "hug": { name: "HuggingChat", url: "https://huggingface.co/chat/?q={{{s}}}" },
   "hugai": { name: "HuggingChat", url: "https://huggingface.co/chat/?q={{{s}}}" },
@@ -246,6 +255,7 @@ export const bangs = {
   "gptweb": { name: "ChatGPT Prompt", url: "https://chatgpt.com/?q={{{s}}}&hints=search" },
   "chat": { name: "ChatGPT Prompt", url: "https://chatgpt.com/?q={{{s}}}" },
   "chatgpt": { name: "ChatGPT Prompt", url: "https://chatgpt.com/?q={{{s}}}" },
+  "prompt": { name: "ChatGPT Prompt", url: "https://chatgpt.com/?q={{{s}}}" },
 
   "deep": { name: "Deepseek (promptless)", url: "https://chat.deepseek.com" },
   "deepseek": { name: "Deepseek (promptless)", url: "https://chat.deepseek.com" },
@@ -253,6 +263,7 @@ export const bangs = {
   "bingai": { name: "Bing AI", url: "https://chatgpt.com/?q={{{s}}}" },
 
   "perplexity": { name: "Perplexity AI", url: "https://www.perplexity.ai?q={{{s}}}" },
+  "aisearch": { name: "Perplexity AI", url: "https://www.perplexity.ai?q={{{s}}}" },
   "ais": { name: "Perplexity AI", url: "https://www.perplexity.ai?q={{{s}}}" },
 
   "gbooks": { name: "Google Books", url: "https://www.google.com/search?nfpr=1&tbm=bks&q={{{s}}}" },
@@ -266,6 +277,9 @@ export const bangs = {
   "scribd": { name: "Scribd Books", url: "http://www.scribd.com/search?query={{{s}}}" },
   "tpb": { name: "The Pirate Bay", url: "https://thepiratebay.org/search.php?q={{{s}}}" },
   "rut": { name: "Rutracker", url: "https://rutracker.org/forum/tracker.php?nm={{{s}}}" },
+
+  "brilliant": { name: "Brilliant.org (queryless)", url: "https://brilliant.org/" },
+  "learn": { name: "Brilliant.org (queryless)", url: "https://brilliant.org/" },
 
   "greads": { name: "GoodReads.com", url: "https://www.goodreads.com/search?utf8=\u2713&query={{{s}}}" },
   "goodreads": { name: "GoodReads.com", url: "https://www.goodreads.com/search?utf8=\u2713&query={{{s}}}" },
