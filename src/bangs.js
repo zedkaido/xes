@@ -51,6 +51,11 @@ export const bangs = {
   "gn": { name: "Google News", url: "https://news.google.com/search?q={{{s}}}" },
   "gnews": { name: "Google News", url: "https://news.google.com/search?q={{{s}}}" },
 
+  "wttr": { name: "Weather In", url: "https://wttr.in/{{{s}}}" },
+  "weather": { name: "Weather In", url: "https://wttr.in/{{{s}}}" },
+  "wind": { name: "Weather In", url: "https://wttr.in/{{{s}}}" },
+  "temperature": { name: "Weather In", url: "https://wttr.in/{{{s}}}" },
+
   "compose": { name: "Compose Email (Gmail)", url: "https://mail.google.com/mail/?view=cm&to=&su={{{s}}}" },
   "inbox": { name: "Google Mail [0]", url: "https://mail.google.com/mail/u/0/#inbox{{{s}}}:" },
   "inbox1": { name: "Google Mail [1]", url: "https://mail.google.com/mail/u/1/#inbox{{{s}}}:" },
