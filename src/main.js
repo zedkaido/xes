@@ -11,7 +11,7 @@ function renderHelpPage() {
     <input size="84" type="text" class="url-input" value="${url}?q=%s" readonly />
     <p>After the first request, the JS is cached and redirects are done locally.</p>
     <h2>Supported <span class="hi">!bangs</span></h2>
-    <p>To <span class="hi">add</span>/<span class="hi">edit</span> the bangs: <a href="https://github.com/zedkaido/xes"><b>fork</b>/<b>clone</b></a> the project to edit <a href="https://github.com/zedkaido/xes/blob/master/src/bangs.js"><b>src/bangs.js</b></a>.<br>Or, submit a <b><a href="https://github.com/zedkaido/xes/pulls">PR</a></b>/<b><a href="https://github.com/zedkaido/xes/issues/new">Issue</a></b>.</p>
+    <p>To <span class="hi">add</span>/<span class="hi">edit</span> the bangs: <a href="https://github.com/zedkaido/xes"><b>fork</b>/<b>clone</b></a> the project to edit <a href="https://github.com/zedkaido/xes/blob/master/src/bangs.js"><b>src/bangs.js</b></a> (or, submit a <b><a href="https://github.com/zedkaido/xes/pulls">PR</a></b>/<b><a href="https://github.com/zedkaido/xes/issues/new">Issue</a></b>).</p>
     <ul id="bangs"></ul>
   `;
 
