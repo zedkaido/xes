@@ -5,6 +5,9 @@ export const bangs = {
   "gs": { name: "Google Search", url: "https://www.google.com/search?q={{{s}}}" },
   "gluck": { name: "I'm Feeling Lucky", url: "http://www.google.com/search?q={{{s}}}&btnI" },
 
+  "sh": { name: "Google Shell", url: "https://goosh.org/#{{{s}}}" },
+  "term": { name: "Google Shell", url: "https://goosh.org/#{{{s}}}" },
+
   "gday": { name: "Google (Past 24h)", url: "http://www.google.com/search?q={{{s}}}&tbs=qdr:d" },
   "g24": { name: "Google (Past 24h)", url: "http://www.google.com/search?q={{{s}}}&tbs=qdr:d" },
   "gweek": { name: "Google (Past Week)", url: "http://www.google.com/search?q={{{s}}}&tbs=qdr:w" },
@@ -254,6 +257,7 @@ export const bangs = {
   "study": { name: "NotebookLM AI by Google (queryless)", url: "https://notebooklm.google.com/" },
   "musicfx": { name: "MusicFX by Google Labs (queryless)", url: "https://labs.google/fx/tools/music-fx" },
 
+  "c": { name: "Claude AI", url: "https://claude.ai/new?q={{{s}}}" },
   "claude": { name: "Claude AI", url: "https://claude.ai/new?q={{{s}}}" },
 
   "hug": { name: "HuggingChat", url: "https://huggingface.co/chat/?q={{{s}}}" },
@@ -271,8 +275,8 @@ export const bangs = {
   "bingai": { name: "Bing AI", url: "https://chatgpt.com/?q={{{s}}}" },
 
   "perplexity": { name: "Perplexity AI", url: "https://www.perplexity.ai?q={{{s}}}" },
-  "aisearch": { name: "Perplexity AI", url: "https://www.perplexity.ai?q={{{s}}}" },
-  "ais": { name: "Perplexity AI", url: "https://www.perplexity.ai?q={{{s}}}" },
+  "psearch": { name: "Perplexity AI", url: "https://www.perplexity.ai?q={{{s}}}" },
+  "per": { name: "Perplexity AI", url: "https://www.perplexity.ai?q={{{s}}}" },
 
   "gbooks": { name: "Google Books", url: "https://www.google.com/search?nfpr=1&tbm=bks&q={{{s}}}" },
   "amzbooks": { name: "Amazon Books", url: "https://www.amazon.com/s?k={{{s}}}&i=stripbooks" },
@@ -509,4 +513,7 @@ export const bangs = {
   "bro": { name: "BroPages", url: "http://bropages.org/{{{s}}}" },
 
   "xsh": { name: "Explain Shell", url: "http://explainshell.com/explain?cmd={{{s}}}" },
+
+  "sketch": { name: "SketchPlanations", url: "https://sketchplanations.com/search?q={{{s}}}" },
+  "explain": { name: "SketchPlanations", url: "https://sketchplanations.com/search?q={{{s}}}" },
 }
