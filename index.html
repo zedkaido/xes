@@ -4,7 +4,7 @@
     <title>|</title>
     <meta name="description" content="!X Engine Selector" />
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <script type="module" crossorigin src="/assets/index-nksFvU4w.js"></script>
+    <script type="module" crossorigin src="/assets/index-BC5PDFSj.js"></script>
   <link rel="manifest" href="/manifest.webmanifest"><script id="vite-plugin-pwa:register-sw" src="/registerSW.js"></script></head>
   <style>
     *, ::before, ::after {
@@ -20,24 +20,31 @@
       -webkit-text-size-adjust: 100%;
       font-family: monospace; 
     }
-    body { padding: 48px 69px; }
-    input { border: 1px solid #696969; padding: 8px 6px; }
+    body { padding: 0 1em; }
+    input { border: 1px solid #444444; padding: 8px 6px; }
     ul { list-style-type: none; margin: 0; padding: 0; }
     h1 { line-height: 1.3; }
-    .hi { background: #eee; padding: 0 4px; }
+    code { background: #eeeeee; padding: 0 0.1em; }
     #xes { width: 100%; word-wrap: break-word; }
     @media (max-width: 800px) {
       body { padding: 10px; }
       input { width: 100%; }
       .url { display: none; }
     }
-    @media (prefers-color-scheme: dark) {
-      html { background: #000000; color: #EEE; }
-      .hi { background: #282828; color: #EEE; }
-      input { background: #202020; color: #EEE; }
-      a:link { color: #3C72C9; }
-      a:visited { color: grey; }
+    a {
+      color: #000000;
+      text-decoration-thickness: 0.11em; 
     }
+    a:visited { text-decoration-color: #800038; }
+    @media (prefers-color-scheme: dark) {
+      html { background: #000000; color: #eeeeee; }
+      code { background: #121314; color: #eeeeee; }
+      input { background: #000000; color: #eeeeee; }
+      a { color: #eeeeee; text-decoration-color: #999999; }
+    }
+    ::-moz-selection { color: #eeeeee; background: #000087; }
+    ::selection { color: #eeeeee; background: #000087; }
+    a::selection { color: #ffd700; text-decoration-color: #000000; }
   </style>
   <body style="background-color: transparent">
     <div id="xes"></div>
