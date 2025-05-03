@@ -5,13 +5,13 @@ function renderHelpPage() {
 
   const app = document.querySelector("#xes");
   app.innerHTML = `
-    <h1><span class="hi">!XES</span> aka<br>!X Engine Selector</h1> 
-    <p><b>█</b> Navigate the web with <b class="hi">!bangs</b> you control.<p>
-    <p>Add the following url as a <b class="hi">custom</b>/<b class="hi">default</b> search engine to your browser.</p>
+    <h1><code>!XES</code> aka<br>!X Engine Selector</h1> 
+    <p><b>█</b> Navigate the web with <code>!bangs</code> you control.<p>
+    <p>Add the following url as a <code>custom</code>/<code>default</code> search engine to your browser.</p>
     <input size="84" type="text" class="url-input" value="${url}?q=%s" readonly />
     <p>After the first request, the JS is cached and redirects are done locally.</p>
-    <h2>Supported <span class="hi">!bangs</span></h2>
-    <p>To <span class="hi">add</span>/<span class="hi">edit</span> the bangs: <a href="https://github.com/zedkaido/xes"><b>fork</b>/<b>clone</b></a> the project to edit <a href="https://github.com/zedkaido/xes/blob/master/src/bangs.js"><b>src/bangs.js</b></a> (or, submit a <b><a href="https://github.com/zedkaido/xes/pulls">PR</a></b>/<b><a href="https://github.com/zedkaido/xes/issues/new">Issue</a></b>).</p>
+    <h2>Supported <code>!bangs</code></h2>
+    <p>To <code>add</code>/<code>edit</code> the bangs: <a href="https://github.com/zedkaido/xes"><b>fork</b>/<b>clone</b></a> the project to edit <a href="https://github.com/zedkaido/xes/blob/master/src/bangs.js"><b>src/bangs.js</b></a> (or, submit a <b><a href="https://github.com/zedkaido/xes/pulls">PR</a></b>/<b><a href="https://github.com/zedkaido/xes/issues/new">Issue</a></b>).</p>
     <ul id="bangs"></ul>
   `;
 
