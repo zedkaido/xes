@@ -1,9 +1,11 @@
 export const bangs = {
+  "help": { name: "xES Help", url: "https://xes.zedkaido.com/bangs.js" },
+  "xes": { name: "xES Help", url: "https://xes.zedkaido.com/bangs.js" },
+
   "g": { name: "Google Search", url: "https://www.google.com/search?q={{{s}}}" },
-  "goog": { name: "Google Search", url: "https://www.google.com/search?q={{{s}}}" },
-  "google": { name: "Google Search", url: "https://www.google.com/search?q={{{s}}}" },
-  "gs": { name: "Google Search", url: "https://www.google.com/search?q={{{s}}}" },
-  "gluck": { name: "I'm Feeling Lucky", url: "http://www.google.com/search?q={{{s}}}&btnI" },
+
+  "gl": { name: "I'm Feeling Lucky", url: "http://www.google.com/search?q={{{s}}}&btnI" },
+  "glucky": { name: "I'm Feeling Lucky", url: "http://www.google.com/search?q={{{s}}}&btnI" },
 
   "sh": { name: "Google Shell", url: "https://goosh.org/#{{{s}}}" },
   "term": { name: "Google Shell", url: "https://goosh.org/#{{{s}}}" },
@@ -15,9 +17,9 @@ export const bangs = {
   "g6months": { name: "Google (Past 6 Months)", url: "https://www.google.com/search?tbs=qdr:m6&q={{{s}}}&safe=off&ie=utf-8&oe=utf-8" },
   "gyear": { name: "Google (Past 6 Months)", url: "http://www.google.com/search?q={{{s}}}&tbs=qdr:y" },
 
-  "l": { name: "Google Search (Link)", url: "http://www.google.com/search?as_lq={{{s}}}&hl=en&btnG=Search" },
-  "link": { name: "Google Search (Link)", url: "http://www.google.com/search?as_lq={{{s}}}&hl=en&btnG=Search" },
-  "glink": { name: "Google Search (Link)", url: "http://www.google.com/search?as_lq={{{s}}}&hl=en&btnG=Search" },
+  "l": { name: "Google Search (Link)", url: "http://www.google.com/search?as_lq={{{s}}}&btnG=Search" },
+  "link": { name: "Google Search (Link)", url: "http://www.google.com/search?as_lq={{{s}}}&btnG=Search" },
+  "glink": { name: "Google Search (Link)", url: "http://www.google.com/search?as_lq={{{s}}}&btnG=Search" },
 
   "gcs": { name: "Google Cloud Search", url: "https://cloudsearch.google.com/cloudsearch/search?q={{{s}}}" },
   "gs": { name: "Google Shopping", url: "https://www.google.com/products?q={{{s}}}&sa=N&tab=pf" },
@@ -58,11 +60,12 @@ export const bangs = {
 
   "compose": { name: "Compose Email (Gmail)", url: "https://mail.google.com/mail/?view=cm&to=&su={{{s}}}" },
   "inbox": { name: "Google Mail [0]", url: "https://mail.google.com/mail/u/0/#inbox{{{s}}}:" },
-  "inbox1": { name: "Google Mail [1]", url: "https://mail.google.com/mail/u/1/#inbox{{{s}}}:" },
-  "inbox2": { name: "Google Mail [2]", url: "https://mail.google.com/mail/u/2/#inbox{{{s}}}:" },
-  "gmail": { name: "Google Mail [0]", url: "https://mail.google.com/mail/u/0/#search/{{{s}}}" },
-  "gmail1": { name: "Google Mail [1]", url: "https://mail.google.com/mail/u/1/#search/{{{s}}}" },
-  "gmail2": { name: "Google Mail [2]", url: "https://mail.google.com/mail/u/2/#search/{{{s}}}" },
+  "i": { name: "Google Mail [0]", url: "https://mail.google.com/mail/u/0/#inbox{{{s}}}:" },
+  "i1": { name: "Google Mail [1]", url: "https://mail.google.com/mail/u/1/#inbox{{{s}}}:" },
+  "i2": { name: "Google Mail [2]", url: "https://mail.google.com/mail/u/2/#inbox{{{s}}}:" },
+  "gm": { name: "Google Mail [0]", url: "https://mail.google.com/mail/u/0/#search/{{{s}}}" },
+  "gm1": { name: "Google Mail [1]", url: "https://mail.google.com/mail/u/1/#search/{{{s}}}" },
+  "gm2": { name: "Google Mail [2]", url: "https://mail.google.com/mail/u/2/#search/{{{s}}}" },
 
   "tuta": { name: "Tuta Mail", url: "https://app.tuta.com/search/mail/?query={{{s}}}" },
   "tutamail": { name: "Tuta Mail", url: "https://app.tuta.com/search/mail/?query={{{s}}}" },
@@ -73,6 +76,7 @@ export const bangs = {
   "gcontacts": { name: "Google Contacts", url: "https://contacts.google.com/search/{{{s}}}" },
   "contacts": { name: "Google Contacts", url: "https://contacts.google.com/search/{{{s}}}" },
 
+  "cal": { name: "Google Calendar", url: "https://calendar.google.com/calendar/b/0/r/search?q={{{s}}}" },
   "gcal": { name: "Google Calendar", url: "https://calendar.google.com/calendar/b/0/r/search?q={{{s}}}" },
   "calendar": { name: "Google Calendar", url: "https://calendar.google.com/calendar/b/0/r/search?q={{{s}}}" },
 
@@ -90,10 +94,11 @@ export const bangs = {
   "gdevs": { name: "Google Developers", url: "https://developers.google.com/s/results/?q={{{s}}}" },
 
   "m": { name: "Google Maps", url: "https://google.com/maps/place/{{{s}}}}" },
-  "gm": { name: "Google Maps", url: "https://google.com/maps/place/{{{s}}}" },
   "map": { name: "Google Maps", url: "https://google.com/maps/place/{{{s}}}" },
   "maps": { name: "Google Maps", url: "https://google.com/maps/place/{{{s}}}" },
+  "ml": { name: "Google Maps Lite", url: "https://google.com/maps/search/{{{s}}}?force=canvas" },
   "mapsl": { name: "Google Maps Lite", url: "https://google.com/maps/search/{{{s}}}?force=canvas" },
+  "mapslite": { name: "Google Maps Lite", url: "https://google.com/maps/search/{{{s}}}?force=canvas" },
   "route": { name: "Google Maps Route", url: "https://www.google.de/maps/dir/{{{s}}}" }, 
   "gearth": { name: "Google Earth", url: "https://earth.google.com/web/search/{{{s}}}" },
 
@@ -109,9 +114,9 @@ export const bangs = {
   "fox": { name: "Firefox Add-Ons", url: "https://addons.mozilla.org/en-US/firefox/search/?q={{{s}}}&cat=all" },
   "addon": { name: "Firefox Add-Ons", url: "https://addons.mozilla.org/en-US/firefox/search/?q={{{s}}}&cat=all" },
 
-  "gdef": { name: "Google Define", url: "https://www.google.com/search?hl=en&q=define+{{{s}}}" },
-  "define": { name: "Google Define", url: "https://www.google.com/search?hl=en&q=define+{{{s}}}" },
-  "def": { name: "Google Define", url: "https://www.google.com/search?hl=en&q=define+{{{s}}}" },
+  "gdef": { name: "Google Define", url: "https://www.google.com/search?&q=define+{{{s}}}" },
+  "define": { name: "Google Define", url: "https://www.google.com/search?&q=define+{{{s}}}" },
+  "def": { name: "Google Define", url: "https://www.google.com/search?&q=define+{{{s}}}" },
 
   "mw": { name: "Meriam-Webster Dictionary", url: "http://www.merriam-webster.com/dictionary/{{{s}}}" },
 
@@ -208,6 +213,11 @@ export const bangs = {
   "wiki": { name: "Wikipedia", url: "http://en.wikipedia.org/wiki/Special:Search?search={{{s}}}&go=Go" },
   "cswiki": { name: "CS Wikipedia", url: "http://cs.wikipedia.org/wiki/{{{s}}}" },
 
+  "gw": { name: "Grokipedia", url: "https://grokipedia.com/search?q={{{s}}}" },
+  "grokipedia": { name: "Grokipedia", url: "https://grokipedia.com/search?q={{{s}}}" },
+  "gwiki": { name: "Grokipedia", url: "https://grokipedia.com/search?q={{{s}}}" },
+  "groki": { name: "Grokipedia", url: "https://grokipedia.com/search?q={{{s}}}" },
+
   "podcast": { name: "Podcast Search Engine", url: "https://www.listennotes.com/search/?q={{{s}}}&sort_by_date=0" },
 
   "b": { name: "Brave Search", url: "https://search.brave.com/search?q={{{s}}}" },
@@ -241,6 +251,7 @@ export const bangs = {
   "simg": { name: "Startpage Img Search", url: "https://startpage.com/do/metasearch.pl?cat=pics&query={{{s}}}" },
   "svid": { name: "Startpage Video Search", url: "https://startpage.com/do/search?cat=video&cmd=process_search&query={{{s}}}" },
 
+  "d": { name: "DuckDuckGo Search", url: "https://duckduckgo.com/?q={{{s}}}" },
   "duck": { name: "DuckDuckGo Search", url: "https://duckduckgo.com/?q={{{s}}}" },
   "ddg": { name: "DuckDuckGo Search", url: "https://duckduckgo.com/?q={{{s}}}" },
   "lite": { name: "DuckDuckGo Lite", url: "https://duckduckgo.com/lite?q={{{s}}}" },
@@ -252,7 +263,12 @@ export const bangs = {
   "ddgai": { name: "DuckDuckGo AI", url: "https://duckduckgo.com/?q={{{s}}}&ia=chat&bang=true" },
   "duckai": { name: "DuckDuckGo AI", url: "https://duckduckgo.com/?q={{{s}}}&ia=chat&bang=true" },
 
-  "ai": { name: "Gemini AI (for queries, in chrome use @gemini)", url: "https://gemini.google.com" }, // in chrome @gemini ...
+  "grok": { name: "Grok AI", url: "https://grok.com/?q={{{s}}}" },
+
+  "gonka": { name: "Gonka AI", url: "https://chat.gonka.ai/c/new?q={{{s}}}" },
+  "gai": { name: "Gonka AI", url: "https://chat.gonka.ai/c/new?q={{{s}}}" },
+
+  "gem": { name: "Gemini AI (for queries, in chrome use @gemini)", url: "https://gemini.google.com" }, // in chrome @gemini ...
   "gemini": { name: "Gemini AI (queryless)", url: "https://gemini.google.com" },
 
   "ais": { name: "Google AI Studio (queryless)", url: "https://aistudio.google.com/prompts/new_chat" },
@@ -263,11 +279,13 @@ export const bangs = {
   "musicfx": { name: "MusicFX by Google Labs (queryless)", url: "https://labs.google/fx/tools/music-fx" },
 
   "c": { name: "Claude AI", url: "https://claude.ai/new?q={{{s}}}" },
+  "cl": { name: "Claude AI", url: "https://claude.ai/new?q={{{s}}}" },
   "claude": { name: "Claude AI", url: "https://claude.ai/new?q={{{s}}}" },
 
   "hug": { name: "HuggingChat", url: "https://huggingface.co/chat/?q={{{s}}}" },
   "hugai": { name: "HuggingChat", url: "https://huggingface.co/chat/?q={{{s}}}" },
 
+  "ai": { name: "ChatGPT Prompt", url: "https://chatgpt.com/?q={{{s}}}" },
   "gpt": { name: "ChatGPT Prompt", url: "https://chatgpt.com/?q={{{s}}}" },
   "gptweb": { name: "ChatGPT Prompt", url: "https://chatgpt.com/?q={{{s}}}&hints=search" },
   "chat": { name: "ChatGPT Prompt", url: "https://chatgpt.com/?q={{{s}}}" },
@@ -277,18 +295,25 @@ export const bangs = {
   "deep": { name: "Deepseek (promptless)", url: "https://chat.deepseek.com" },
   "deepseek": { name: "Deepseek (promptless)", url: "https://chat.deepseek.com" },
 
-  "bingai": { name: "Bing AI", url: "https://chatgpt.com/?q={{{s}}}" },
+  "copilot": { name: "Microsoft Copilot", url: "https://copilot.microsoft.com/" },
 
-  "perplexity": { name: "Perplexity AI", url: "https://www.perplexity.ai?q={{{s}}}" },
-  "psearch": { name: "Perplexity AI", url: "https://www.perplexity.ai?q={{{s}}}" },
+  "qwen": { name: "Qwen AI", url: "https://chat.qwen.ai/" },
+
+  "lma": { name: "LMArena", url: "https://lmarena.ai/c/" },
+  "lmarena": { name: "LMArena", url: "https://lmarena.ai/c/" },
+  "arena": { name: "LMArena", url: "https://lmarena.ai/c/" },
+
+  "p": { name: "Perplexity AI", url: "https://www.perplexity.ai?q={{{s}}}" },
   "per": { name: "Perplexity AI", url: "https://www.perplexity.ai?q={{{s}}}" },
+  "perplexity": { name: "Perplexity AI", url: "https://www.perplexity.ai?q={{{s}}}" },
 
   "gbooks": { name: "Google Books", url: "https://www.google.com/search?nfpr=1&tbm=bks&q={{{s}}}" },
   "amzbooks": { name: "Amazon Books", url: "https://www.amazon.com/s?k={{{s}}}&i=stripbooks" },
   "bookdep": { name: "Book Depository", url: "http://bookdepository.com/search?searchTerm={{{s}}}&search=Find+book" },
+  "aa": { name: "Annas-Archive", url: "https://annas-archive.org/search?q={{{s}}}" },
+  "anna": { name: "Annas-Archive", url: "https://annas-archive.org/search?q={{{s}}}" },
   "books": { name: "Annas-Archive", url: "https://annas-archive.org/search?q={{{s}}}" },
   "book": { name: "Annas-Archive", url: "https://annas-archive.org/search?q={{{s}}}" },
-  "aa": { name: "Annas-Archive", url: "https://annas-archive.org/search?q={{{s}}}" },
   "lib": { name: "Library Genesis", url: "https://libgen.rs/search.php?req={{{s}}}" },
   "libgen": { name: "Library Genesis", url: "https://libgen.rs/search.php?req={{{s}}}" },
   "scribd": { name: "Scribd Books", url: "http://www.scribd.com/search?query={{{s}}}" },
@@ -514,11 +539,13 @@ export const bangs = {
   "cht": { name: "cht.sh", url: "https://cheat.sh/{{{s}}}" },
   "chtsh": { name: "cht.sh", url: "https://cheat.sh/{{{s}}}" },
   "cheat": { name: "cheat.sh", url: "https://cheat.sh/{{{s}}}" },
-  "help": { name: "DevHints", url: "https://devhints.io/{{{s}}}" },
+  "hints": { name: "DevHints", url: "https://devhints.io/{{{s}}}" },
   "bro": { name: "BroPages", url: "http://bropages.org/{{{s}}}" },
 
   "xsh": { name: "Explain Shell", url: "http://explainshell.com/explain?cmd={{{s}}}" },
 
   "sketch": { name: "SketchPlanations", url: "https://sketchplanations.com/search?q={{{s}}}" },
   "explain": { name: "SketchPlanations", url: "https://sketchplanations.com/search?q={{{s}}}" },
+
+  "aoc": { name: "Advent of Code", url: "https://adventofcode.com/" },
 }

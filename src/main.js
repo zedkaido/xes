@@ -1,27 +1,35 @@
-import { bangs } from "./bangs.js";
+import { bangs } from "/public/bangs.js";
 
 function renderHelpPage() {
   const url = document.URL;
 
   const app = document.querySelector("#xes");
   app.innerHTML = `
-    <h1><code>!XES</code> aka<br>!X Engine Selector</h1> 
-    <p><b>█</b> Navigate the web with <code>!bangs</code> you control.<p>
-    <p>Add the following url as a <code>custom</code>/<code>default</code> search engine to your browser.</p>
-    <input size="84" type="text" class="url-input" value="${url}?q=%s" readonly />
-    <p>After the first request, the JS is cached and redirects are done locally.</p>
-    <h2>Supported <code>!bangs</code></h2>
-    <p>To <code>add</code>/<code>edit</code> the bangs: <a href="https://github.com/zedkaido/xes"><b>fork</b>/<b>clone</b></a> the project to edit <a href="https://github.com/zedkaido/xes/blob/master/src/bangs.js"><b>src/bangs.js</b></a> (or, submit a <b><a href="https://github.com/zedkaido/xes/pulls">PR</a></b>/<b><a href="https://github.com/zedkaido/xes/issues/new">Issue</a></b>).</p>
-    <ul id="bangs"></ul>
-  `;
+    <h1 style="margin-top: 0.2em;"><a href="https://github.com/zedkaido/xes" target="_blank">xES</a> - <code>!x</code> Engine Selector</h1>
 
-  const list = document.querySelector("#bangs");
-  Object.keys(bangs).forEach(bangKey => {
-    const listItem = document.createElement("li");
-    const bang = bangs[bangKey];
-    listItem.innerHTML = `<b>!${bangKey}</b> - ${bang.name} <span class="url">:<span> <a class="url" href=${bang.url}>${bang.url}</a>`;
-    list.appendChild(listItem);
-  });
+    <p>
+    <b>!xES</b> is an open-source alternative to DuckDuckGo <b>!bangs</b> that significantly outperforms its redirect latency by caching ≈ 8.42 KiB of JS in your browser.
+    <p>
+
+    <hr>
+    <p>Visit <a href="/bangs.js">/bangs.js</a> for the full list of bangs.</p>
+    <hr>
+
+    <p>
+    If you are happy with the pre-defined bangs, you can set the default search engine in your browsers to:
+    </p>
+    <input size="84" type="text" class="url-input" value="${url}?q=%s" readonly />
+
+    <p>
+    <hi><b>WARNING</b></hi>: <b>I may update the current <code>!bangs</code> at any time.</b>
+    </p>
+
+    <p>
+    That being said, I personally recommend cloning <a href="https://github.com/zedkaido/xes" target="_blank">github.com/zedkaido/xes</a>, editing <a href="/bangs.js">/bangs.js</a> to your liking and serving it within your walls of comfort.
+    </p>
+
+    <opus-humanum>by <a href="https://zedkaido.com">Zed-Kaido</a></opus-humanum>
+  `;
 }
 
 const LS_DEFAULT_BANG = localStorage.getItem("default-bang") ?? "g";
