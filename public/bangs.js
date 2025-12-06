@@ -418,6 +418,8 @@ export const bangs = {
   "symb": { name: "Symbolab", url: "https://www.symbolab.com/solver/step-by-step/{{{s}}}" },
   "physics": { name: "Physics Forums", url: "https://www.physicsforums.com/search/90229641/?q={{{s}}}&o=relevance" }, 
 
+  "aoc": { name: "Advent of Code", url: "https://adventofcode.com/" },
+  "code": { name: "Codeforces", url: "http://codeforces.com/search?query={{{s}}}" },
   "codeforces": { name: "Codeforces", url: "http://codeforces.com/search?query={{{s}}}" },
   "dd": { name: "Dev Docs", url: "https://devdocs.io/#q={{{s}}}" },
   "dev": { name: "Dev Docs", url: "https://devdocs.io/#q={{{s}}}" },
@@ -547,5 +549,5 @@ export const bangs = {
   "sketch": { name: "SketchPlanations", url: "https://sketchplanations.com/search?q={{{s}}}" },
   "explain": { name: "SketchPlanations", url: "https://sketchplanations.com/search?q={{{s}}}" },
 
-  "aoc": { name: "Advent of Code", url: "https://adventofcode.com/" },
+  "zk": { name: "Zed Kaido Website", url: "https://zedkaido/" },
 }
