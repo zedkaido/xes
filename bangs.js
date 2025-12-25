@@ -268,10 +268,11 @@ export const bangs = {
   "gonka": { name: "Gonka AI", url: "https://chat.gonka.ai/c/new?q={{{s}}}" },
   "gai": { name: "Gonka AI", url: "https://chat.gonka.ai/c/new?q={{{s}}}" },
 
-  "gem": { name: "Gemini AI (for queries, in chrome use @gemini)", url: "https://gemini.google.com" }, // in chrome @gemini ...
-  "gemini": { name: "Gemini AI (queryless)", url: "https://gemini.google.com" },
+  "ai": { name: "Gemini AI", url: "https://gemini.google.com?prompt_text={{{s}}}" },
+  "gem": { name: "Gemini AI (for queries, in chrome use @gemini)", url: "https://gemini.google.com?prompt_text={{{s}}}" }, 
+  "gemini": { name: "Gemini AI", url: "https://gemini.google.com?prompt_text={{{s}}}" },
 
-  "ais": { name: "Google AI Studio (queryless)", url: "https://aistudio.google.com/prompts/new_chat" },
+  "ais": { name: "Google AI Studio (queryless)", url: "https://aistudio.google.com/prompts/new_chat?prompt_text={{{s}}}" },
   "studio": { name: "Google AI Studio (queryless)", url: "https://aistudio.google.com/prompts/new_chat" },
   "notebook": { name: "NotebookLM AI by Google (queryless)", url: "https://notebooklm.google.com/" },
   "research": { name: "NotebookLM AI by Google (queryless)", url: "https://notebooklm.google.com/" },
@@ -285,7 +286,6 @@ export const bangs = {
   "hug": { name: "HuggingChat", url: "https://huggingface.co/chat/?q={{{s}}}" },
   "hugai": { name: "HuggingChat", url: "https://huggingface.co/chat/?q={{{s}}}" },
 
-  "ai": { name: "ChatGPT Prompt", url: "https://chatgpt.com/?q={{{s}}}" },
   "gpt": { name: "ChatGPT Prompt", url: "https://chatgpt.com/?q={{{s}}}" },
   "gptweb": { name: "ChatGPT Prompt", url: "https://chatgpt.com/?q={{{s}}}&hints=search" },
   "chat": { name: "ChatGPT Prompt", url: "https://chatgpt.com/?q={{{s}}}" },
@@ -549,5 +549,8 @@ export const bangs = {
   "sketch": { name: "SketchPlanations", url: "https://sketchplanations.com/search?q={{{s}}}" },
   "explain": { name: "SketchPlanations", url: "https://sketchplanations.com/search?q={{{s}}}" },
 
-  "zk": { name: "Zed Kaido Website", url: "https://zedkaido/" },
+  "zk": { name: "Zed Kaido's Website (shortcut)", url: "https://zedkaido.com/" },
+  "zkw": { name: "Zed Kaido's Writing (shortcut)", url: "https://zedkaido.com/writing" },
+  "zkm": { name: "Zed Kaido's Music (shortcut)", url: "https://zedkaido.com/music" },
+  "zkp": { name: "Zed Kaido's Photography (shortcut)", url: "https://zedkaido.com/photography" },
 }
