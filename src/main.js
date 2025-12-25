@@ -1,4 +1,4 @@
-import { bangs } from "/public/bangs.js";
+import { bangs } from "./bangs.js";
 
 function renderHelpPage() {
   const url = document.URL;
@@ -18,7 +18,7 @@ function renderHelpPage() {
     <p>
     If you are happy with the pre-defined bangs, you can set the default search engine in your browsers to:
     </p>
-    <input size="84" type="text" class="url-input" value="${url}?q=%s" readonly />
+    <input id="xes-search-engine" type="text" value="${url}?q=%s" readonly />
 
     <p>
     <hi><b>WARNING</b></hi>: <b>I may update the current <code>!bangs</code> at any time.</b>
